@@ -52,9 +52,33 @@ body{
     background-image: url(../img/sldier1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: top center;
     min-height: 350px;
 }
 
+.bgimgbanner1{
+    background-image: url(../img/sldier2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 350px;
+}
+
+.bgimgbanner2{
+    background-image: url(../img/sldier3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 350px;
+}
+
+.bgimgbanner3{
+    background-image: url(../img/sldier4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 350px;
+}
 
 
 .bannerhead{
