@@ -96,13 +96,13 @@
       <div class="row">
         <div class="col-6 pl-5 pr-5">
           <!-- <p class="conhead mt-5 pl-3">Energy Edge</p> -->
-          <a target="_blank" href="/assets/CERC Final Submission.pdf" class="btn btn-primary btn-block text-light">
+          <a type="button" class="btn btn-primary btn-block text-light" data-toggle="modal" data-target="#cerc">
             CERC FINAL SUBMISSION
           </a>
         </div>
         <div class="col-6 pl-5 pr-5">
           <!-- <p class="conhead mt-5 pl-3">Energy Edge</p> -->
-          <a target="_blank" href="/assets/EEPTPL Public Notice.pdf" class="btn btn-primary btn-block text-light">
+          <a type="button" class="btn btn-primary btn-block text-light" data-toggle="modal" data-target="#EEPTPL">
             PUBLIC NOTICE
           </a>
         </div>
@@ -116,6 +116,74 @@
     <br />
     <br />
     <br />
+
+<!-- Modal -->
+<div class="modal fade" id="cerc" tabindex="-1" aria-labelledby="cercModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="cercModalLabel">Please Enter Details To Download</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-12">
+            <form action="https://formsubmit.co/info@energyedge.in" method="POST">
+              <div class="form-group">
+                <input name="Name" type="Name" class="form-control" placeholder="Enter Name" required>
+              </div>
+              <div class="form-group">
+                <input name="Email ID" type="email" class="form-control" placeholder="Enter Email ID" required>
+              </div>
+              <div class="form-group">
+                <input name="Phone Number" type="number" class="form-control" placeholder="Enter Phone Number" required>
+              </div>
+              <input type="hidden" name="_next" value="http://energyedge.in/assets/CERC.pdf">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="EEPTPL" tabindex="-1" aria-labelledby="EEPTPLModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="EEPTPLModalLabel">Please Enter Details To Download</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-12">
+            <form action="https://formsubmit.co/info@energyedge.in" method="POST">
+              <div class="form-group">
+                <input name="Name" type="Name" class="form-control" placeholder="Enter Name" required>
+              </div>
+              <div class="form-group">
+                <input name="Email ID" type="email" class="form-control" placeholder="Enter Email ID" required>
+              </div>
+              <div class="form-group">
+                <input name="Phone Number" type="number" class="form-control" placeholder="Enter Phone Number" required>
+              </div>
+              <input type="hidden" name="_next" value="http://energyedge.in/assets/EEPTPL.pdf">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
     <!-- footer section code starts here -->
     <div class="row footersec">
