@@ -29,6 +29,11 @@ body{
     color: #fff;
 }
 
+.cutsfontsize{
+    font-size: 0.8rem;
+}
+
+
 /* carousel styles */
 .carousimg{
     max-height: 750px;
@@ -95,7 +100,6 @@ body{
     font-weight: 700;
     color: #000;
     margin-left: 25px;
-    margin-bottom: 50px;
     text-align: center;
     margin-top: 50px;
 
